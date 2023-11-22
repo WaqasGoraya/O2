@@ -1,0 +1,48 @@
+
+.logo_img{
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
+    margin: auto;
+}
+.loader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .login-form{
+        background: #0019A5;
+    }
+    .bg-gradient-login{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-login{
+        width: 40%;
+    }
+    .login_btn{
+        padding: 10px 40px !important;
+        background: transparent !important;
+        border: 2px solid #fff !important;
+        margin: auto;
+    }
+    .login_btn:hover{
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+
+    @media (max-width:767px){
+        .container-login{
+            width: 90% !important;
+        }
+    }

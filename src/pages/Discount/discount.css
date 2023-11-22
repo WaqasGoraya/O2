@@ -1,0 +1,119 @@
+
+.coupon-card{
+    /* background: linear-gradient(135deg, #7158fe, #9d4de6); */
+    background: #0019A5;
+    color: #fff;
+    text-align: center;
+    padding: 40px 80px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.15);
+    position: relative;
+
+}
+.logo{
+    width: 80px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+.coupon-card h3{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+.coupon-card p{
+    font-size: 15px;
+
+}
+.coupon-row{
+    display: flex;
+    align-items: center;
+    margin: 25px auto;
+    width: fit-content;
+
+}
+#cpnCode{
+    border: 1px dashed #fff;
+    padding: 10px 20px;
+    border-right: 0;
+
+}
+#cpnBtn{
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 10px 20px;
+    color: #7158fe;
+    cursor: pointer;
+}
+.circle1, .circle2{
+    background: #f0fff3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.circle1{
+    left: -25px;
+}
+.circle2{
+    right: -25px;
+}
+.form-group{
+    text-align: left;
+    margin: 20px 0px;
+}
+.container_card{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discount_btn{
+    background: none;
+    color: #fff;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+}
+.discount_btn:hover{
+    background: #fff;
+    color: #000;
+    transition: 0.5s linear all;
+}
+.loader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+    @media (max-width:768px){
+
+        .container_card {
+            height: auto !important;
+        }
+        .coupon-card h3 {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 40px;
+        }
+        .coupon-card {
+         
+            padding: 20px 30px;
+          
+        }
+    }
